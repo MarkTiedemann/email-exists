@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "name": "email-exists",
+  "description": "Check whether an email address exists.",
+  "license": "WTFPL",
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "email",
+    "exists",
+    "existence",
+    "check",
+    "validate",
+    "verify",
+    "smtp"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "throw-if-missing": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTiedemann/email-exists.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/email-exists/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/email-exists"
+}
