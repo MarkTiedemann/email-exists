@@ -88,6 +88,8 @@ module.exports = ({
 
                     conn.setTimeout(timeout)
 
+                    conn.on('error', reject)
+
                     conn.on('connect', () => {
 
                         const EOL = '\r\n'
@@ -115,8 +117,6 @@ module.exports = ({
 
                             if (response.startsWith('553')) resolve('INVALID_SYNTAX')
                         })
-
-                        conn.on('error', reject)
 
                         /* https://tools.ietf.org/html/rfc1123#section-5.2.7
                            Cannot check whether an address actually exists:
