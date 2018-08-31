@@ -90,6 +90,8 @@ module.exports = ({
 
                     conn.on('error', reject)
 
+                    conn.on('timeout', () => reject('TIMEOUT'))
+
                     conn.on('connect', () => {
 
                         const EOL = '\r\n'
