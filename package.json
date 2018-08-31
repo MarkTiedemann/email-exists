@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "email-exists",
   "description": "Check whether an email address exists.",
   "license": "WTFPL",
