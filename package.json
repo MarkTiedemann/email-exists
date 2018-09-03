@@ -1,8 +1,8 @@
 {
-  "version": "0.1.2",
+  "version": "0.2.0",
   "name": "email-exists",
   "description": "Check whether an email address exists.",
-  "license": "WTFPL",
+  "license": "MIT",
   "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
   "engines": {
     "node": ">=6.0.0"
