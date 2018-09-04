@@ -1,9 +1,12 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "name": "email-exists",
   "description": "Check whether an email address exists.",
   "license": "MIT",
   "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "contributors": [
+    "Andrew Lomakin <andrew0x0007c8@gmail.com>"
+  ],
   "engines": {
     "node": ">=6.0.0"
   },
