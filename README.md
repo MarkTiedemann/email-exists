@@ -43,7 +43,7 @@ emailExists({ sender: 'darthvader@gmail.com',
 ## Maintainers
 
 - [Mark Tiedemann](https://marksweb.site)
-- [Andrew LASTNAME_HERE](https://github.com/andrew0x0007c8)
+- [Andrew Lomakin](https://github.com/andrew0x0007c8)
 
 ## License
 
